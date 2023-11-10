@@ -1,0 +1,39 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 10;
+}
+
+.logo img{
+    width:10vw;
+}
+
+.nav li{
+    list-style: none;
+    margin:0 10px;
+}
+
+.nav li a{
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav li:hover a{
+    color: yellow;
+}
+
+.spec{
+    padding:10px;
+    border: solid;
+    border-radius: 1em;
+}

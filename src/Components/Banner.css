@@ -1,0 +1,55 @@
+.banner{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../Images/banner1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.banner::before{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content{
+    position: relative;
+    max-width: 550px;
+    display: none;
+    visibility: hidden;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.content.active{
+    display: block;
+    visibility: visible;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.movie-title{
+    max-width: 250px;
+    color:yellow;
+}
+
+.banner .content p{
+    font-size:1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color:white;
+    margin:10px 0 20px;
+}
