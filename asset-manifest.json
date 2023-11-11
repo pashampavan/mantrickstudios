@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/movieWeb/static/css/main.d450aa8a.css",
+    "main.js": "/movieWeb/static/js/main.bb56c558.js",
+    "static/js/787.d4aba7ab.chunk.js": "/movieWeb/static/js/787.d4aba7ab.chunk.js",
+    "static/media/mantrick.png": "/movieWeb/static/media/mantrick.4b3d1148044681dcb987.png",
+    "static/media/logo.svg": "/movieWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/movieWeb/index.html",
+    "main.d450aa8a.css.map": "/movieWeb/static/css/main.d450aa8a.css.map",
+    "main.bb56c558.js.map": "/movieWeb/static/js/main.bb56c558.js.map",
+    "787.d4aba7ab.chunk.js.map": "/movieWeb/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d450aa8a.css",
+    "static/js/main.bb56c558.js"
+  ]
+}
